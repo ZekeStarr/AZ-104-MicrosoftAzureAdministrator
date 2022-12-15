@@ -1,0 +1,11 @@
+{
+  "if": {
+    "not": {
+      "field": "type",
+      "equals": "Microsoft.Storage/storageAccounts"
+    }
+  },
+  "then": {
+    "effect": "deny"
+  }
+}
